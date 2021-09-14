@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def print_matrix_integer(matrix=[[]]):
+
     if matrix is None:
         return
     for r in range(len(matrix)):
@@ -8,4 +9,4 @@ def print_matrix_integer(matrix=[[]]):
                 print("{:d}".format(matrix[r][x]), end=" ")
             else:
                 print("{:d}".format(matrix[r][x]))
-    print()
+        print()
