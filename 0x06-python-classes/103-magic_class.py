@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-import math'''comment'''
+import math
 
 
 class MagicClass:
+    '''comment'''
     def __init__(self, radius):
         self.__radius = 0
         if type(radius) is not int and type(radius) is not float:
