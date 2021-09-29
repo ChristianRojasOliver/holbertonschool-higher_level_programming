@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-'''Escribe una clase llamada square que define square'''
-'''Crear un private instance atribute'''
-'''luego inisiar'''
+'''Defines a class call square'''
 
 
 class Square:
+    '''comment'''
     def __init__(self, size):
         self.__size = size
