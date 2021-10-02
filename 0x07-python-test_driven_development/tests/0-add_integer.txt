@@ -1,0 +1,28 @@
+''' This is the Start of Unit Testing... '''
+''' Importing <name_of_function_here> function''''
+> holder = __import__('module').function_being_tested
+> 
+> Category 1
+> =======
+> 
+> Test 1: Normal Addition
+>   ''' Expecting: expected output '''
+> >>> Name_of_function(parameters)
+> the_output
+> 
+> Test 2: Test Name
+>   ''' comment '''
+> 
+> >>> Name_of_function(parameters)
+> Traceback (comment)
+>   ...
+> TypeError: Error message
+> 
+> 
+> Category 2
+> ==========
+> 
+> 
+> Category 3
+> =========
+> 
