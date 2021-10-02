@@ -17,6 +17,6 @@ def add_integer(a, b=98):
     if type(a) != int:
         raise TypeError("a must be a integer")
     elif type(b) != int:
-        raise typeError("b must be a integer")
+        raise TypeError("b must be a integer")
     else:
         return a + b
