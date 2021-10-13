@@ -1,7 +1,7 @@
 #!/usr/bin/pyhton3
-''' lookup'''
+"""lookup"""
 
 
 def lookup(obj):
-    '''lookup function'''
+    """lookup function"""
     return dir(obj)
