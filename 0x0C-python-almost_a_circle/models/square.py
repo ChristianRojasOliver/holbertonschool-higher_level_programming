@@ -11,10 +11,12 @@ class Square(Rectangle):
     """Inherits from Rectangle"""
 
     def __init__(self, size, x=0, y=0, id=None):
+        """bob construye"""
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
+        """bob construye denuevo"""
         return self.width
 
     @size.setter
