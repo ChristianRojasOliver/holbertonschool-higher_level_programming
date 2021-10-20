@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" square """
+"""
+square
+"""
 
 
 from models.rectangle import Rectangle
@@ -7,12 +9,14 @@ from models.rectangle import Rectangle
 
 class Square(Rectangle):
     """Inherits from Rectangle"""
+
     def __init__(self, size, x=0, y=0, id=None):
         """bob construye"""
         super().__init__(size, size, x, y, id)
 
     @property
     def size(self):
+        """bob construye denuevo"""
         return self.width
 
     @size.setter
@@ -28,3 +32,23 @@ class Square(Rectangle):
         return "[{}] ({}) {}/{} - {}".format(self.__class__.__name__,
                                              self.id, self.x, self.y,
                                              self.width)
+
+    def update(self, *args, **kwargs):
+        if len(kwargs) != 0:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+        elif len(args) != 0:
+            try:
+                self.id = args[0]
+                self.size = args[1]
+                self.x = args[2]
+                self.y = args[3]
+            except IndexError:
+                pass
+        else:
+            print()
+
+    def to_dictionary(self):
+        """Returns a dict representation"""
+
+        return {'id': self.id, 'x': self.x, 'size': self.width, 'y': self.y}
