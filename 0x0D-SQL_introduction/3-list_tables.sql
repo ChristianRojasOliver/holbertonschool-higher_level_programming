@@ -1,0 +1,2 @@
+-- SHOW list
+SHOW TABLES
