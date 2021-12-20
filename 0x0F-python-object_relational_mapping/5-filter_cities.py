@@ -21,8 +21,8 @@ if __name__ == "__main__":
         proceso = str(fila).replace(",)", "")
         proceso = proceso.replace("(", "")
         proceso = proceso.replace("'", "")
-            if (proceso != 'None'):
-                print(proceso)
-            else:
-                print()
+    if (proceso != 'None'):
+        print(proceso)
+    else:
+        print()
     nuevaconexion.close()
