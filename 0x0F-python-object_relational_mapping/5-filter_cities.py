@@ -18,9 +18,9 @@ if __name__ == "__main__":
                        BY cities.id ASC;", (argument,))
     resultado = consulta.fetchall()
     for fila in resultado:
-        proceso = str(fila).replace(",)", "")
-        proceso = proceso.replace("(", "")
-        proceso = proceso.replace("'", "")
+            proceso = str(fila).replace(",)", "")
+            proceso = proceso.replace("(", "")
+            proceso = proceso.replace("'", "")
             if (proceso != 'None'):
                 print(proceso)
             else:
