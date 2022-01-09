@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Made by Christian """
+""" Made by Christian from holbertonschool 2022 """
 import urllib.request as llamada
 
 if __name__ == "__main__":
