@@ -1,3 +1,3 @@
 #!/bin/bash
-# Made by Facundo Diaz for Holberton School 2021
+# Made  Christian
 curl -sX POST -F 'email=test@gmail.com' -F 'subject=I will always be here for PLD' $1
