@@ -6,4 +6,4 @@ from sys import argv
 if __name__ == "__main__":
     datos = llamada.Request(argv[1])
     with llamada.urlopen(datos) as res:
-        print(res.headers.get('X-Request-Id'))
+        print(res.getheader('X-Request-Id'))
