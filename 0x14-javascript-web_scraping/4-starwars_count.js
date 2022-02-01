@@ -20,5 +20,3 @@ request(url, function (err, response, body) {
     console.log('An error occured. Status code: ' + response.statusCode);
   }
 });
-
-
