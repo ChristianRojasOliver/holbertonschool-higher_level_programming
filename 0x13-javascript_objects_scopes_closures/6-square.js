@@ -2,7 +2,7 @@
 
 const viejo = require('./5-square');
 
-// Made by Christian Rojas to Holberton School 2021
+// fixing task checker is not working
 
 class Square extends viejo {
   constructor (size) {
